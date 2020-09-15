@@ -89,8 +89,5 @@ export class AppComponent {
 
   initTokenSwapSdk() {
     tokenSwapWidget.initTokenSwap();
-
-
-
   }
 }
