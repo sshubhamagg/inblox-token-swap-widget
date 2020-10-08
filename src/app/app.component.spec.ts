@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'inblox-token-swaps'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('inblox-token-swaps');
+    expect(app).toEqual('inblox-token-swaps');
   });
 
   it('should render title', () => {

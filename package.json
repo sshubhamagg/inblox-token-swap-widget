@@ -19,8 +19,8 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
-    "@inbloxme/inblox-token-swaps": "^1.0.16",
-    "@inbloxme/keyless-transactions": "^1.1.5",
+    "@inbloxme/inblox-token-swaps": "^1.0.20",
+    "@inbloxme/keyless-transactions": "^1.1.8",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
