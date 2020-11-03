@@ -15,5 +15,14 @@ export class AppComponent {
 
   initTokenSwapSdk() {
     tokenSwapWidget.initTokenSwap();
+  
+
+// Listen to all events.
+tokenSwapWidget.on(tokenSwapWidget.EVENTS.ALL_EVENTS,
+  (transactionData: any) => {
+    console.log('all events',transactionData);
+  }
+);
+
   }
 }
